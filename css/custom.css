@@ -153,7 +153,7 @@ ul li{
 .contact-box2{
 	float:right;
 	width:400px;
-	padding-top:20px;
+	padding-top:40px;
 	margin-right:80px;
 }
 .contact-box2 table tr rd p{
@@ -169,10 +169,7 @@ ul li{
 }
 .contact-box2 table tr td input {
 	width: 276px;
-}
-.contact-box2 table tr td textarea {
-	width: 274px;
-	height: 124px;
+	margin-bottom:5px;
 }
 .contact-box2 table tr:nth-child(4) td {
 	padding: 8px 0;
@@ -183,10 +180,12 @@ ul li{
 	padding: 9px 118px;
 	color: #fff;
 	border: 1px solid #237318;
+	text-decoration:none;
 }
 .contact-box2 table tr td textarea {
-	width: 274px;
+	width: 276px;
 	height: 124px;
+	margin-bottom:5px;
 }
 .contact-box2  table  tbody  tr:nth-child(1)  td:nth-child(1) {
 	width: 90px;
@@ -197,4 +196,18 @@ ul li{
 .contact-box2  table  tbody  tr:nth-child(3)  td:nth-child(1)  p {
 	margin: 0 auto;
 }
-
+footer{
+	background-color:#39b127;
+	height:auto;
+}
+.copyright-note{
+	width:500px;
+	margin:0 auto;
+}
+.copyright-note p{
+	text-align:center;
+	color:#fff;
+	font-family:"Myriad Pro";
+	margin:0;
+	padding:16px;
+}
