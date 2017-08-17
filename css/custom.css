@@ -42,7 +42,7 @@ ul li{
 	height:384px;	
 }
 .download-box{
-	padding:144px;
+	padding:144px 0px;
 }
 .download-content{
 	background-color:rgba(0,0,0,0.5);
@@ -58,10 +58,10 @@ ul li{
 	font-family: "Kozuka Gothic Pr6n";
 	color: #fff;
 }
-.portfolio{
+#portfolio{
 	padding:26px 69px;
 }
-.portfolio h2{
+#portfolio h2{
 	text-align:center;
 	color:#ccc;
 	text-decoration:underline;
@@ -86,12 +86,13 @@ ul li{
 .portfolio-box:last-child{
 	margin: 0;
 }
-#content > div.portfolio > div:nth-child(7) > a > img{
+#content > div#portfolio > div:nth-child(7) > a > img{
 	height: 196px;
 }
-.about{
+#about{
 	padding:26px 69px;
-}.about h2{
+}
+#about h2{
 	text-align:center;
 	color:#ccc;
 	text-decoration:underline;
@@ -128,7 +129,7 @@ ul li{
 .contact-box1,.contact-box2{
 	display:inline-block;
 }
-.contact{
+#contact{
 	background-color:#dfdfdf;
 	height:330px;
 	margin-top:50px;
