@@ -34,8 +34,11 @@ ul li{
 	text-decoration:none;
 	color:#33542a;
 	font-family: "Kozuka Gothic Pr6n";
-	line-height:0;
-	font-size:25px;
+	line-height:1;
+	letter-spacing: 4px;
+}
+.main-menu ul li a:hover{
+	text-decoration:underline;
 }
 .download{
 	background-image:url("/images/olive_circuit_bg.png");
@@ -211,4 +214,7 @@ footer{
 	font-family:"Myriad Pro";
 	margin:0;
 	padding:16px;
+}
+.show-menu, input#show-menu{
+	display:none;
 }
